@@ -9,3 +9,6 @@
 
 # Exclude all sym-lib-table files in any directory
 **/sym-lib-table
+
+# Exclude all .lck (lock) files in any directory
+**/*.lck

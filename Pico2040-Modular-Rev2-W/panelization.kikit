@@ -1,0 +1,11 @@
+board:
+  board_outline: Pico2040-Modular-Rev2.kicad_pcb
+  position: [0, 0]
+
+array:
+  rows: 2
+  cols: 5
+  dx: 2
+  dy: 1
+
+kerf: 1

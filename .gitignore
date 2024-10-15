@@ -1,0 +1,11 @@
+# Exclude all project backup folders in any directory
+*-backups/
+
+# Exclude fp-info-cache in all directories
+**/fp-info-cache
+
+# Exclude all fp-lib-table files in any directory
+**/fp-lib-table
+
+# Exclude all sym-lib-table files in any directory
+**/sym-lib-table

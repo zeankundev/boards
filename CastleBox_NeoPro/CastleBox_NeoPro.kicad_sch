@@ -1,0 +1,74 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "7a7ced68-0c18-429c-b5d2-fe4ce8afef91")
+	(paper "A4")
+	(title_block
+		(title "CastleBox NeoPro")
+		(date "2025-05-21")
+		(rev "2.0")
+	)
+	(lib_symbols)
+	(text "CastleBox NeoPro"
+		(exclude_from_sim no)
+		(at 30.226 98.298 0)
+		(effects
+			(font
+				(size 10.16 10.16)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "a384f131-c104-4a60-8780-b9f6003cffdf")
+	)
+	(sheet
+		(at 21.59 187.96)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d3c46580-9f1c-4565-886c-6ada2b4bc419")
+		(property "Sheetname" "Power"
+			(at 21.59 187.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 21.59 192.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CastleBox_NeoPro"
+				(path "/7a7ced68-0c18-429c-b5d2-fe4ce8afef91"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

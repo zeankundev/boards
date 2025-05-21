@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "6e2289b0-085b-4069-a921-5da35ad68061")
+	(paper "A4")
+	(title_block
+		(title "CastleBox NeoPro")
+		(date "2025-05-21")
+		(rev "2.0")
+	)
+	(lib_symbols)
+)

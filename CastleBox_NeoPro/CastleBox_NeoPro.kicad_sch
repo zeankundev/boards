@@ -24,6 +24,132 @@
 		(uuid "a384f131-c104-4a60-8780-b9f6003cffdf")
 	)
 	(sheet
+		(at 80.01 187.96)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "362854fe-a587-441c-ab3b-02037eccc337")
+		(property "Sheetname" "Peripherals"
+			(at 80.01 187.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peripherals.kicad_sch"
+			(at 80.01 192.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CastleBox_NeoPro"
+				(path "/7a7ced68-0c18-429c-b5d2-fe4ce8afef91"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 45.72 187.96)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "83707750-610a-45c2-8522-5f1e95d17d49")
+		(property "Sheetname" "Microcontroller"
+			(at 45.72 187.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microcontroller.kicad_sch"
+			(at 45.72 192.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CastleBox_NeoPro"
+				(path "/7a7ced68-0c18-429c-b5d2-fe4ce8afef91"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 187.96)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d3c06f25-630a-4359-b403-d275fbd55802")
+		(property "Sheetname" "Miscellaneous"
+			(at 109.22 187.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "misc.kicad_sch"
+			(at 109.22 192.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CastleBox_NeoPro"
+				(path "/7a7ced68-0c18-429c-b5d2-fe4ce8afef91"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 21.59 187.96)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
@@ -39,7 +165,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "d3c46580-9f1c-4565-886c-6ada2b4bc419")
-		(property "Sheetname" "Power"
+		(property "Sheetname" "Power and USB"
 			(at 21.59 187.2484 0)
 			(effects
 				(font

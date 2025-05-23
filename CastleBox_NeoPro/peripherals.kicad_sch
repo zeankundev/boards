@@ -7379,6 +7379,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 181.61) (xy 156.21 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38cd7b1a-1461-42d4-b6b9-10ac4d2ebbb8")
+	)
+	(wire
+		(pts
 			(xy 208.28 50.8) (xy 218.44 50.8)
 		)
 		(stroke
@@ -7616,6 +7626,16 @@
 			(type default)
 		)
 		(uuid "67398d0f-6741-4a55-9fe7-27dbf9a92e87")
+	)
+	(wire
+		(pts
+			(xy 152.4 184.15) (xy 156.21 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69225ad6-d645-4a48-a93c-12f704c48f6f")
 	)
 	(wire
 		(pts
@@ -7946,6 +7966,16 @@
 			(type default)
 		)
 		(uuid "a9394e23-4d6a-4c4d-a07e-a78ab4f49795")
+	)
+	(wire
+		(pts
+			(xy 152.4 161.29) (xy 156.21 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa874c89-005a-4be9-be27-f922bf4ea36a")
 	)
 	(wire
 		(pts
@@ -8376,6 +8406,16 @@
 			(type default)
 		)
 		(uuid "e663427e-10ec-47ee-b6c9-e4b2c6066b73")
+	)
+	(wire
+		(pts
+			(xy 152.4 179.07) (xy 156.21 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8702b5c-b0de-4a2b-bc6e-db377175fbe4")
 	)
 	(wire
 		(pts
@@ -9131,6 +9171,28 @@
 			)
 		)
 	)
+	(global_label "FPGA_SCK"
+		(shape input)
+		(at 156.21 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "224c6962-6641-47e5-9846-b6faf6caa736")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.7822 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "HDMI_HPD"
 		(shape input)
 		(at 200.66 78.74 180)
@@ -9319,6 +9381,72 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FPGA_MOSI"
+		(shape input)
+		(at 156.21 184.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a15542fa-56df-432f-a943-e3c5290fe8db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.7128 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FPGA_CS"
+		(shape input)
+		(at 156.21 179.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a3549900-2d36-4004-864b-cbe0f8e179b1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.4844 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FPGA_MISO"
+		(shape input)
+		(at 156.21 181.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c07e1c81-7de3-4c46-893e-d3908c42c117")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.7128 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -11351,7 +11479,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8b0d5142-61d4-4030-ba21-72810b7c95bf")
+			(uuid "8b0d5142-61d4-4030-ba21-72810b7c95c0")
 		)
 		(instances
 			(project ""
@@ -12090,19 +12218,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "9c38ddf3-7346-4b89-b768-ac68e0b682ab")
+			(uuid "9c38ddf3-7346-4b89-b768-ac68e0b682ac")
 		)
 		(pin "2"
-			(uuid "d904a897-0cdd-4879-85f1-895f1d8ffffd")
+			(uuid "d904a897-0cdd-4879-85f1-895f1d8ffffe")
 		)
 		(pin "3"
-			(uuid "a5d861fe-45b2-4998-be7a-a7eb7f40da7b")
+			(uuid "a5d861fe-45b2-4998-be7a-a7eb7f40da7c")
 		)
 		(pin "4"
-			(uuid "b04a35f5-1bdb-4172-a6e8-0859b6d1896f")
+			(uuid "b04a35f5-1bdb-4172-a6e8-0859b6d18970")
 		)
 		(pin "5"
-			(uuid "d6311060-54d7-4466-8973-87278ac61e59")
+			(uuid "d6311060-54d7-4466-8973-87278ac61e5a")
 		)
 		(instances
 			(project ""
